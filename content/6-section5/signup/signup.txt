@@ -14,7 +14,7 @@ Email: Email-Adresse
 
 ----
 
-Phone: Telefonnummer
+Phone: Telefonnummer (optional)
 
 ----
 
@@ -22,4 +22,16 @@ Message: Nachricht (optional)
 
 ----
 
+Success: Dein Signup war erfolgreich! Wir werden uns schnellstmöglich mit dir für einen Testaccount in Kontakt setzen.
+
+----
+
 Submit: Abschicken
+
+----
+
+Close: Schließen
+
+----
+
+Name: Vor- und Nachname

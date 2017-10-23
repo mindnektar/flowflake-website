@@ -5,7 +5,7 @@
     </div>
     <div class="row inside" id="price-cards">
         <?php foreach($data->children()->visible() as $priceCard): ?>
-            <div class="col-lg-4 card-container">
+            <div class="col-lg-4 card-container" data-package="<?php echo $priceCard->title(); ?>">
                 <div class="price-card">
                     <div class="card-popularity <?php echo $priceCard->popularityBool() ?> <?php echo $priceCard->ctaGradient() ?>">
                         <p class=""><?php echo $priceCard->popularityTitle() ?></p>

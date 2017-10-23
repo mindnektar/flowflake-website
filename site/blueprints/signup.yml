@@ -18,6 +18,10 @@ fields:
     label: Company
     type: text
 
+  name:
+    label: Name
+    type: text
+
   email:
     label: Email
     type: text
@@ -32,4 +36,12 @@ fields:
 
   submit:
     label: Submit
+    type: text
+
+  success:
+    label: Success
+    type: text
+
+  close:
+    label: Close
     type: text

@@ -8,13 +8,23 @@
             <input
                 class="signup__form-item"
                 name="company"
+                required
                 type="text"
                 placeholder="<?php echo $data->company(); ?>"
             />
 
             <input
                 class="signup__form-item"
+                name="name"
+                required
+                type="text"
+                placeholder="<?php echo $data->name(); ?>"
+            />
+
+            <input
+                class="signup__form-item"
                 name="email"
+                required
                 type="text"
                 placeholder="<?php echo $data->email(); ?>"
             />
@@ -32,7 +42,15 @@
                 placeholder="<?php echo $data->message(); ?>"
             ></textarea>
 
-            <button class="signup__button" type="submit"><?php echo $data->submit(); ?></button>
+            <button type="submit"><?php echo $data->submit(); ?></button>
         </form>
+
+        <div class="signup__loader"></div>
+
+        <div class="signup__success">
+            <?php echo $data->success(); ?>
+
+            <button><?php echo $data->close(); ?></button>
+        </div>
     </div>
 </div>
