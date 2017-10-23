@@ -1,0 +1,33 @@
+Title: professional
+
+----
+
+Cta: EUR 49,- pro User und Monat</br>Monatlich kündbar
+
+----
+
+Bullet1: Das Profipaket mit dem gewissen Extra. Wie Basic plus...
+
+----
+
+Bullet2: Template-Editor - ideal für Agenturen
+
+----
+
+Bullet3: Anwenderschulung
+
+----
+
+Popularitytilte: Am beliebtesten
+
+----
+
+Popularitybool: active
+
+----
+
+Popularitytitle: Am beliebtesten
+
+----
+
+Ctagradient: red

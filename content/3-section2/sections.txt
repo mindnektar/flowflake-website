@@ -1,0 +1,21 @@
+Title: section2
+
+----
+
+Intro: 
+
+----
+
+Introdetail: 
+
+----
+
+Cta: 
+
+----
+
+Headline: Zentrale Verwaltung.<br>Immer auf dem aktuellen Stand.
+
+----
+
+Copy: Erstelle und verwalte Deine Folien und Präsentationen schnell und einfach im Browser. Endlich befinden sich alle Präsentationen teamübergreifend an einem zentralen Ort.<br> Vermeide das Versionschaos und sei mit den neusten Präsentationen immer auf dem aktuellen Stand.

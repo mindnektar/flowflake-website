@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="001_Layout.Website" transform="translate(-123.000000, -49.000000)" fill="#FFFFFF">
+            <g id="nav-bar" transform="translate(2.000000, 0.000000)">
+                <g id="Logo" transform="translate(121.000000, 49.000000)">
+                    <path d="M9.60839161,6.57284553 L25.1874427,0 L25.1874427,6.57284553 L9.60839161,6.57284553 Z M15.5790511,9.51154472 L15.5790511,14.6530081 L24.7118083,14.6530081 L24.7118083,21.1941463 L15.5790511,21.1941463 L15.5790511,31.5001626 L9.13291742,31.5001626 L9.13291742,21.1941463 L0,21.1941463 L0,14.6530081 L9.13291742,14.6530081 L9.13291742,6.43902439 L9.13339818,6.43918699 L15.5790511,9.51154472 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

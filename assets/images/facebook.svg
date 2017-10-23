@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="71px" viewBox="0 0 71 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>btn/facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="001_Layout.Website" transform="translate(-2359.000000, -10909.000000)">
+            <g id="footer" transform="translate(0.000000, 10809.000000)">
+                <g id="btn/facebook" transform="translate(2360.000000, 101.000000)">
+                    <circle id="Oval-Copy-2" stroke="#FFFFFF" stroke-width="2" cx="34.5" cy="34.5" r="34.5"></circle>
+                    <path d="M30.229589,55.853964 L30.229589,36.7094669 L23.7592137,36.7094669 L23.7592137,29.2447218 L30.229589,29.2447218 L30.229589,23.7426898 C30.229589,17.371916 34.1765179,13.8969485 39.9028001,13.8969485 C42.6203577,13.8969485 44.9820447,14.0900022 45.6614341,14.1865291 L45.6614341,20.8468836 L41.7145052,20.8790592 C38.5763732,20.8790592 37.9940394,22.3269623 37.9940394,24.4827292 L37.9940394,29.2447218 L45.4026191,29.2447218 L44.4320628,36.7094669 L37.9940394,36.7094669 L37.9940394,55.853964 L30.5142536,55.853964 L30.229589,55.853964 Z" id="facebook-square---FontAwesome" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

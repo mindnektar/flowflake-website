@@ -1,0 +1,38 @@
+title: Price Cards
+
+pages: false
+
+files: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  popularityBool:
+    label: Popularity Boolean (active or inactive)
+    type:  text
+
+  popularityTitle:
+    label: Popularity Title
+    type:  text
+
+  bullet1:
+    label: Bullet 1
+    type:  textarea
+
+  bullet2:
+    label: Bullet 2
+    type:  textarea
+
+  bullet3:
+    label: Bullet 3
+    type:  textarea
+
+  cta:
+    label: CTA
+    type:  text
+
+  ctaGradient:
+    label: CTA Gradient (red, blue and purple)
+    type:  text

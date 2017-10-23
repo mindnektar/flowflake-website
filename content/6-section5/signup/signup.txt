@@ -1,0 +1,25 @@
+Title: signup
+
+----
+
+Headline: Flowflake Signup
+
+----
+
+Company: Firmenname
+
+----
+
+Email: Email-Adresse
+
+----
+
+Phone: Telefonnummer
+
+----
+
+Message: Nachricht (optional)
+
+----
+
+Submit: Abschicken

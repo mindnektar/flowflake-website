@@ -1,0 +1,34 @@
+title: Contact
+
+pages: false
+
+files: true
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  headline:
+    label: Headline
+    type:  text
+    
+  contactName:
+    label: Name
+    type:  text
+
+  contactPosition:
+    label: Position
+    type:  text
+
+  contactName:
+    label: Name
+    type:  text
+
+  contactQuote:
+    label: Quote
+    type:  textarea
+
+  cta:
+    label: CTA
+    type:  text

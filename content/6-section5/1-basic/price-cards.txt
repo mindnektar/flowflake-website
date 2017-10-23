@@ -1,0 +1,33 @@
+Title: basic
+
+----
+
+Cta: EUR 29,- pro User und Monat</br>Monatlich kündbar
+
+----
+
+Bullet1: Das Basispaket mit allen relevanten Funktionen.
+
+----
+
+Bullet2: Flowflake CMS und App
+
+----
+
+Bullet3: Mitgelieferte Templates
+
+----
+
+Popularitytilte: 
+
+----
+
+Popularitybool: inactive
+
+----
+
+Popularitytitle: 
+
+----
+
+Ctagradient: blue

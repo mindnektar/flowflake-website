@@ -1,0 +1,33 @@
+Title: premium
+
+----
+
+Cta: EUR 99,- pro User und Monat</br>Mind. 24 Monate Laufzeit
+
+----
+
+Bullet1: Das Rundum-Sorglos-Paket, wie Professional plus...
+
+----
+
+Bullet2: Modernes iPad (Leasing)
+
+----
+
+Bullet3: Telefonischer Support
+
+----
+
+Popularitytilte: 
+
+----
+
+Popularitybool: inactive
+
+----
+
+Popularitytitle: 
+
+----
+
+Ctagradient: purple

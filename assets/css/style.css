@@ -1,0 +1,1283 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+font-size: 12px;
+
+--fontWeightLight: 300;
+--fontWeightRegular: 400;
+--fontWeightMedium: 500;
+--fontWeightSemiBold: 600;
+
+--boxShadow: 0 10 40 0 rgba(173,173,173,0.5);
+}
+
+html{
+    display: block;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    color: #fff;
+    font-weight: var(--fontWeightRegular);
+    background: #fff;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+main{
+    width: 100%;
+}
+
+body .container{
+    max-width: none;
+    padding: 0;
+}
+
+.inside {
+    max-width: 1300px;
+    min-width: 300px;
+    width: 90%;
+    margin: auto;
+}
+
+.line{
+    background: #fff;
+    height: 2px;
+    width: 50%;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: var(--fontWeightMedium);
+    text-align: center;
+    font-size: 24pt;
+    color: #000;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: var(--fontWeightMedium);
+    text-align: center;
+    font-size: 16pt;
+    color: #fff;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--fontWeightLight);
+    text-align: center;
+    font-size: 12pt;
+    line-height: 2.5rem;
+}
+
+a.btn{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: var(--fontWeightLight);
+    font-size: 13pt;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+
+
+    border: 2px solid #00DEB6;
+    border-radius: 100px;
+    padding: 1rem 4rem;
+}
+
+a:hover, a:focus {
+    color: #fff !important;
+}
+
+.inactive{
+    display: none;
+}
+
+/* Header */
+
+header{
+    background: #1C212C;
+    height: 6rem;
+    line-height: 6rem;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    padding: 0 3rem;
+    z-index: 1;
+}
+
+#logo{
+    height: 2rem;
+    display: none;
+}
+
+#logo-f{
+    height: 3rem;
+}
+
+.nav{
+    float: right;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: var(--fontWeightLight);
+    font-size: 13pt;
+    vertical-align: middle;
+    margin-left: 4rem;
+    text-decoration: none;
+    color: #fff;
+    display: none;
+}
+
+.nav-btn{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: var(--fontWeightLight);
+    vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
+
+    background: rgba(0,222,182,0.1);
+    border: 2px solid #00DEB6;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    margin-left: 0;
+    font-size: 10pt;
+}
+
+
+
+/* Stage */
+
+#stage{
+    padding: 0;
+    padding-top: 7rem;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#headline{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+#stage-content{
+    text-align: center;
+}
+
+#ipad-gradient{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+85,1+90 */
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 85%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 85%,rgba(255,255,255,1) 90%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 85%,rgba(255,255,255,1) 90%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    height: 100%;
+}
+
+
+/* Section1 */
+
+#section1{
+    width: 100%;
+    max-width: none;
+    z-index: 0;
+    padding: 10rem 0rem;
+    position: relative;
+    overflow: hidden;
+    margin-top: -5rem;
+
+    background-image: url(../../assets/images/background_gradient_red.png);
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    background-position: center;
+}
+
+#s1-content{
+    text-align: center;
+}
+
+#sl-1{
+}
+
+#copy-1{
+    /*padding-bottom: 6rem; Solange Button nicht da ist*/
+    color: #fff;
+}
+
+.btn.white{
+    font-size: 12pt;
+    border: 2px solid #fff;
+    background: none;
+}
+
+.btn.white.inactive{
+    border: 2px solid rgba(2380,238,238,0.5);;
+    color: rgba(2380,238,238,0.5);;
+    background: rgba(2380,238,238,0.1);
+    display: initial;
+    cursor: default;
+}
+
+
+
+/* Section2 */
+
+#section2{
+    width: 100%;
+    z-index: 0;
+    padding: 6rem 0rem;
+    position: relative;
+
+    background: none;
+    overflow: hidden;
+}
+
+#sl-2{
+    color: #000;
+}
+
+#s2-copy{
+    color: #000;
+    position: relative;
+    height: 100%;
+    padding-bottom: 2rem;
+}
+
+#s2-copy p{
+    text-align: left;
+
+}
+
+img#desktop {
+    width: 320px;
+}
+
+
+
+/* Section3 */
+
+#section3{
+    background-image: url("../../assets/images/background_gradient_blue.png");
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section3 .container{
+    width: 100%;
+    z-index: 0;
+    padding: 10rem 0;
+    position: relative;
+}
+
+#sl-3{
+    color: #fff;
+}
+
+#s3-copy{
+    color: #fff;
+    position: relative;
+}
+
+#s3-copy p{
+    text-align: left;
+}
+
+#s3-image #ipad-image{
+    width: 330px;
+    margin: auto;
+    margin-top: 1.2rem;
+    display: block;
+}
+
+#image-container{
+    position: relative;
+    z-index: -1;
+}
+
+
+
+/* Section4 */
+
+#section4{
+    width: 100%;
+    max-width: none;
+    z-index: 0;
+    padding: 6rem 0rem;
+    position: relative;
+    overflow: hidden;
+
+    background: none;
+}
+
+#sl-4{
+    color: #000;
+}
+
+#s4-image #perspektive{
+    float: left;
+    width: 130%;
+}
+
+#s4-copy{
+    color: #000;
+    position: relative;
+}
+
+#s4-copy p{
+    text-align: center;
+    padding-top: 4rem;
+
+}
+
+
+
+/* Section5 */
+
+#section5{
+    width: 100%;
+    max-width: none;
+    z-index: 0;
+    padding: 0rem 0rem;
+    position: relative;
+
+    background: none;
+}
+
+#background5{
+    background-image: url("../../assets/images/background_gradient_blue_alt.png");
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    padding: 6rem 0;
+    background-position: center;
+}
+
+#sl-5{
+    color: #fff;
+    padding-top: 4rem;
+}
+
+#s5-image #perspektive{
+    float: left;
+    width: 100%;
+    margin-left: 25rem;
+}
+
+#s5-copy{
+    color: #000;
+    position: relative;
+    height: 100%;
+    padding: 0 34rem;
+}
+
+#s5-copy p{
+    text-align: center;
+
+}
+
+
+    /* Price Card */
+
+
+    #price-cards{
+        margin-top: -4rem;
+    }
+
+    .card-container {
+        cursor: pointer;
+    }
+
+    .card-container a{
+        text-decoration: none;
+    }
+
+    .price-card{
+        background: #fff;
+        box-shadow: inset 0 1px 4px 0 rgba(178,178,178,0.50), 0 10px 40px 0 rgba(173,173,173,0.50);
+        border-radius: 18px;
+        overflow: hidden;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .card-popularity{
+        box-shadow: inset 0 4px 7px 0 rgba(255,255,255,0.50);
+    }
+
+    .card-popularity p{
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 3.5rem;
+        font-size: 10pt;
+    }
+
+    .card-title p{
+        text-transform: uppercase;
+        padding-top: 1rem;
+        line-height: 3rem;
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: var(--fontWeightMedium);
+    }
+
+    p.card-cta:hover {
+    text-decoration: underline;
+}
+
+    .card.line{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    .card-bullet{
+        font-size: 12pt;
+        line-height: 24px;
+        color: #000;
+        text-align: left;
+        padding: 0 1rem;
+        padding-bottom: 4rem;
+        padding-left: 4rem;
+    }
+
+    .bullet{
+        float: left;
+        font-size: 20pt;
+        line-height: 1.8rem;
+        padding-left: 1rem;
+    }
+
+    .card-cta{
+        font-size: 12pt;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: var(--fontWeightRegular);
+        box-shadow: inset 0 0px 12px 0 rgba(255,255,255,0.53);
+        padding: 1rem;
+    }
+
+
+
+    /* Gradients */
+
+    .text.red{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fa2b76+0,ff9f4c+100 */
+        background: rgb(250,43,118); /* Old browsers */
+        background: -moz-linear-gradient(-45deg, rgba(250,43,118,1) 0%, rgba(255,159,76,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(250,43,118,1) 0%,rgba(255,159,76,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(250,43,118,1) 0%,rgba(255,159,76,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa2b76', endColorstr='#ff9f4c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text.blue{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#202d8d+0,00deb6+100 */
+        background: rgb(32,45,141); /* Old browsers */
+        background: -moz-linear-gradient(-45deg, rgba(32,45,141,1) 0%, rgba(0,222,182,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(32,45,141,1) 0%,rgba(0,222,182,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(32,45,141,1) 0%,rgba(0,222,182,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202d8d', endColorstr='#00deb6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text.purple{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fa2b76+0,202d8d+100 */
+        background: rgb(250,43,118); /* Old browsers */
+        background: -moz-linear-gradient(-45deg, rgba(250,43,118,1) 0%, rgba(32,45,141,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(250,43,118,1) 0%,rgba(32,45,141,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(250,43,118,1) 0%,rgba(32,45,141,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa2b76', endColorstr='#202d8d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .red{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fa2b76+0,ff9f4c+100 */
+        background: rgb(250,43,118); /* Old browsers */
+        background: -moz-linear-gradient(-45deg, rgba(250,43,118,1) 0%, rgba(255,159,76,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(250,43,118,1) 0%,rgba(255,159,76,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(250,43,118,1) 0%,rgba(255,159,76,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa2b76', endColorstr='#ff9f4c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+
+    .blue{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#202d8d+0,00deb6+100 */
+        background: rgb(32,45,141); /* Old browsers */
+        background: -moz-linear-gradient(-45deg, rgba(32,45,141,1) 0%, rgba(0,222,182,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(32,45,141,1) 0%,rgba(0,222,182,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(32,45,141,1) 0%,rgba(0,222,182,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202d8d', endColorstr='#00deb6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+
+    .purple{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fa2b76+0,202d8d+100 */
+        background: rgb(250,43,118); /* Old browsers */
+        background: -moz-linear-gradient(-45deg, rgba(250,43,118,1) 0%, rgba(32,45,141,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(250,43,118,1) 0%,rgba(32,45,141,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(250,43,118,1) 0%,rgba(32,45,141,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa2b76', endColorstr='#202d8d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+
+
+
+/* Contact */
+
+#contact{
+    width: 100%;
+    max-width: none;
+    z-index: 0;
+    padding: 2rem 0 46rem 0;
+    position: relative;
+    overflow: hidden;
+
+    background: none;
+}
+
+#contact-content{
+    text-align: center;
+}
+
+#sl-6{
+    color: #000;
+    padding-top: 2rem;
+}
+
+#contact-name{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: var(--fontWeightSemiBold);
+    font-size: 15pt;
+    text-transform: uppercase;
+    line-height: 3rem;
+}
+
+#contact-position{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--fontWeightLight);
+    font-size: 13pt;
+    line-height: normal;
+    padding-bottom: 4rem;
+}
+
+#contact-photo{
+    width: 40%;
+    clip-path: circle();
+    border-radius: 50%;
+}
+
+#contact-photo:after{
+    position: absolute;
+  top: -15px;
+  bottom: -15px;
+  right: -15px;
+  left: -15px;
+    background-image: linear-gradient(to bottom left, #7B73A4 0%, #150E5E 100%);
+}
+
+#contact-quote{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--fontWeightLight);
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.btn.contact{
+    font-size: 12pt;
+    padding: 1rem 6rem;
+
+    border: none;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fa2b76+0,ff9f4c+100 */
+    background: rgb(250,43,118); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(250,43,118,1) 0%, rgba(255,159,76,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(250,43,118,1) 0%,rgba(255,159,76,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(250,43,118,1) 0%,rgba(255,159,76,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa2b76', endColorstr='#ff9f4c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+
+/* Footer */
+
+footer.container{
+    width: 100%;
+    line-height: 2rem;
+    padding: 16rem 0rem 0 0rem;
+    z-index: 1;
+    max-width: none;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    background-image: url(../../assets/images/background_footer.png);
+    background-size: 10000% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#link-container{
+    margin-bottom: -3rem;
+}
+
+#link-container, #social-container, #partner-container{
+    text-align: center;
+}
+
+#social-container{
+    line-height: 10rem;
+}
+
+.footer-link{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: var(--fontWeightLight);
+    font-size: 12pt;
+    vertical-align: middle;
+    margin: 0 2rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    height: 24px;
+}
+
+.social-btn{
+    vertical-align: middle;
+    margin: 0 2rem;
+    height: 4rem;
+}
+
+.footer-hl {
+    color: #fff;
+    margin: 0 2rem;
+    font-weight: var(--fontWeightSemiBold);
+    font-size: 12pt;
+    text-transform: uppercase;
+    line-height: normal;
+    padding-bottom: 1.5rem;
+}
+
+
+/* Legal */
+
+header#legal-header{
+    padding: 0 1rem;
+    text-align: left;
+}
+
+#legal-header #logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -1rem 0 0 -7rem;
+}
+
+#legal-header .nav-btn {
+    border: none;
+    width: auto;
+    height: 5rem;
+    background: none;
+    display: initial;
+    margin: 0;
+    padding: 1rem;
+}
+
+#legal-content{
+    padding-top: 7rem;
+    padding-bottom: 48rem;
+    text-align: left;
+}
+
+#legal-content h2{
+    padding-top: 3rem;
+    color: #000;
+    text-align: left;
+}
+
+#legal-content h2#disclaimer{
+    font-size: 18pt;
+}
+
+#legal-content h3{
+    color: #000;
+    text-align: left;
+    padding-top: 2rem;
+    font-size: 16pt;
+}
+
+#legal-content p{
+    color: #000;
+    text-align: left;
+    padding-top: 0.5rem;
+    font-size: 12pt;
+    line-height: normal;
+}
+
+#legal-content a:hover{
+    color: #337ab7 !important;
+}
+
+
+
+/* Carousels */
+
+.carousel-inner{
+    z-index: -1;
+}
+
+.carousel-control.left, .carousel-control.right{
+    background: none !important;
+}
+
+#stage-ipad-container{
+    width: 296px;
+    height: 213px;
+    margin: auto;
+
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+    background-image: url(../../assets/images/ipad_mask.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#stageCarousel{
+    width: 256px;
+    margin: auto;
+    padding-top: 0.9rem;
+}
+
+#stageCarousel .carousel-control.left, #stageCarousel .carousel-control.right{
+    margin-top: 1.1rem;
+}
+
+#section2-ipad-container{
+    width: 384px;
+    height: 300px;
+    float: left;
+
+    background-image: url(../../assets/images/browser_mask.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#section2Carousel{
+    width: 376px;
+    padding-top: 1.2rem;
+    margin: auto;
+}
+
+#section2Carousel .carousel-control.left, #section2Carousel .carousel-control.right{
+    margin-top: 1.2rem;
+}
+
+#section3-ipad-container{
+    width: 380px;
+    height: 275px;
+    float: right;
+    margin-bottom: 2rem;
+
+    background-image: url(../../assets/images/ipad_mask.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#stage-carousel-image{
+    height: 192px;
+    object-fit: contain;
+}
+
+#section2-carousel-image{
+    height: 284px;
+    object-fit: contain;
+}
+
+.carousel-indicators {
+    bottom: 35px !important;
+}
+
+/* Signup */
+
+.signup {
+    align-items: center;
+    background: rgba(0, 0, 0, .3);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    transition: 300ms ease opacity;
+    top: 0;
+    width: 100%;
+}
+
+.signup--visible {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.signup__container {
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: inset 0 1px 4px 0 rgba(178, 178, 178, .5), 0 10px 40px 0 rgba(173, 173, 173, .5);
+    max-width: 640px;
+    padding: 24px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.signup__title {
+    font-size: 22pt;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.signup__form-item,
+.signup__button {
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    display: block;
+    font-size: 14pt;
+    height: 48px;
+    margin-bottom: 12px;
+    outline: none;
+    transition: 300ms ease border;
+    padding: 12px 24px;
+    width: 100%;
+}
+
+textarea.signup__form-item {
+    height: 160px;
+}
+
+.signup__form-item::placeholder {
+    color: #cccccc;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.signup__form-item:focus,
+.signup__button:hover {
+    border-color: rgb(0, 222, 182);
+}
+
+.signup__button {
+    font-size: 12pt;
+    margin: 0 auto;
+    width: 40%;
+}
+
+@media (min-width: 375px) {
+
+    img#desktop{
+        width: 380px;
+    }
+
+    #stage-carousel-image{
+        height: 222px;
+    }
+
+    #section2-carousel-image{
+    }
+
+    .carousel-indicators {
+        bottom: 40px !important;
+    }
+
+    #stage-ipad-container{
+        width: 340px;
+        height: 246px;
+
+        left: unset;
+        -webkit-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+
+    #stageCarousel{
+        width: 294px;
+        padding-top: 1rem;
+    }
+
+    #stageCarousel .carousel-control.left, #stageCarousel .carousel-control.right{
+        margin-top: 1.2rem;
+    }
+
+    #section2Carousel .carousel-control.left, #section2Carousel .carousel-control.right{
+        margin-top: 1.2rem;
+    }
+
+}
+
+@media (min-width: 425px) {
+
+    header{
+        padding: 0 5rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    #stage-carousel-image{
+        height: 439.5px;
+    }
+
+    #section2-carousel-image{
+        height: 460px;
+    }
+
+    .carousel-indicators {
+        bottom: 60px !important;
+    }
+
+    #stage-ipad-container{
+        width: 678px;
+        height: 490px;
+    }
+
+    #stageCarousel{
+        width: 585px;
+        padding-top: 2.2rem;
+    }
+
+    #stageCarousel .carousel-control.left, #stageCarousel .carousel-control.right{
+        margin-top: 2.2rem;
+    }
+
+    #section2-ipad-container{
+        width: 624px;
+        height: 490px;
+    }
+
+    #section2Carousel{
+        width: 614px;
+        padding-top: 2rem;
+    }
+
+    #section2Carousel .carousel-control.left, #section2Carousel .carousel-control.right{
+        margin-top: 2rem;
+    }
+
+    #section3-ipad-container{
+        width: 678px;
+        height: 490px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    #stage-ipad-container{
+        width: 678px;
+        height: 490px;
+
+        left: unset;
+        -webkit-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+
+    #stageCarousel{
+        width: 586px;
+        padding-top: 2.2rem;
+    }
+
+    #stageCarousel .carousel-control.left, #stageCarousel .carousel-control.right{
+        margin-top: 2.2rem;
+    }
+
+    #section2-ipad-container{
+        width: 800px;
+        height: 643px;
+    }
+
+    #section2-carousel-image {
+        height: 588px;
+    }
+
+    #section2Carousel{
+        width: 786px;
+        padding-top: 2.6rem;
+    }
+
+    #section2Carousel .carousel-control.left, #section2Carousel .carousel-control.right{
+        margin-top: 2.6rem;
+    }
+
+    #section3-ipad-container{
+        width: 891px;
+        height: 643px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    #section2-carousel-image {
+        height: 514px;
+    }
+
+    #section2-ipad-container{
+        width: 698px;
+        height: 548px;
+    }
+
+    #section2Carousel{
+        width: 686px;
+        padding-top: 2.2rem;
+    }
+
+    #section2Carousel .carousel-control.left, #section2Carousel .carousel-control.right{
+        margin-top: 2.2rem;
+    }
+
+    #section3-ipad-container{
+        width: 759px;
+        height: 548px;
+    }
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+    img#desktop {
+        height: unset;
+        width: 678px;
+    }
+
+    header .nav-btn{
+        padding: 0.8rem 2.5rem;
+        margin-left: 4rem;
+        font-size: 12pt;
+    }
+
+    #logo{
+        display: initial;
+    }
+
+    #logo-f{
+        display: none;
+    }
+
+    .line{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    footer.container{
+        line-height: 12rem;
+        padding: 8rem 5rem 0 5rem;
+    }
+
+    #link-container{
+        float: left;
+        text-align: initial;
+        margin-bottom: 0;
+    }
+
+    #partner-container{
+        text-align: initial;
+    }
+
+    #social-container{
+        float: right;
+        text-align: initial;
+        line-height: inherit;
+    }
+
+    #legal-footer .row #social-container{
+        text-align: center;
+    }
+
+    #social-btn{
+        float: right;
+    }
+
+    #legal-footer .row #social-container #social-btn{
+        float: none;
+    }
+
+    .footer-hl{
+        text-align: left;
+    }
+
+    header{
+        height: 7rem;
+        line-height: 7rem;
+        text-align: initial;
+    }
+
+    .nav-btn{
+        display: initial;
+    }
+
+    h1{
+        font-size: 40pt;
+    }
+
+    h2{
+        font-size: 22pt;
+    }
+
+    p{
+        font-size: 14pt;
+        line-height: 3.5rem;
+    }
+
+    #contact-photo{
+    width: 20%;
+    }
+
+    #section1{
+        padding: 20rem 0rem;
+        margin-top: -9rem;
+    }
+
+    #section2{
+        padding: 12rem 0rem;
+    }
+
+    #section3{
+        padding: 12rem 0rem;
+    }
+
+    #section4{
+        padding: 12rem 0rem;
+    }
+
+    #background5{
+        padding: 12rem 0;
+    }
+
+    #contact{
+        padding: 12rem 0 24rem 0;
+    }
+
+    footer.container{
+        background-size: 200% 100%;
+    }
+
+    #price-cards{
+        margin-top: -8rem;
+    }
+
+    #legal-header .nav-btn {
+        margin-left: 4rem;
+        padding: 1rem;
+    }
+
+    #s3-image #ipad-image{
+        width: 590px;
+        padding-top: 0.8rem;
+    }
+
+    #footer-content{
+        display: flex;
+        align-items: center;
+    }
+
+    #link-container, #partner-container{
+        line-height: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    img#desktop {
+        width: 891px;
+    }
+
+    .item {
+    }
+
+    .nav-link{
+        display: initial;
+    }
+
+    #price-cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-action.red{
+        margin-top: 4.4rem;
+    }
+
+    #s3-image #ipad-image{
+        width: 776px;
+        padding-top: 1.4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    img#desktop {
+        width: 100%;
+    }
+
+    #copy-1{
+        padding: 0 16rem;
+    }
+
+    #s3-image #ipad-image{
+        width: 656px;
+        padding-top: 1rem;
+    }
+
+    #s2-image #ipad{
+        width: 130%;
+    }
+
+    .card-action.blue{
+        margin-top: 1.334rem;
+    }
+
+    #s2-copy{
+        min-height: 453px;
+    }
+
+    #s2-copy p{
+        padding: 0 15px;
+    }
+
+
+}

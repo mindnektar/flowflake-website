@@ -1,0 +1,22 @@
+title: Sections
+
+pages: true
+
+files: true
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  headline:
+    label: Headline
+    type:  text
+    
+  copy:
+    label: copy
+    type:  textarea
+
+  cta:
+    label: CTA
+    type:  text

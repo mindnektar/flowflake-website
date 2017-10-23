@@ -1,0 +1,109 @@
+title: Legal
+
+pages: false
+
+files: false
+
+fields:
+
+  title:
+    label: Title
+    type:  text
+
+  legalTitle:
+    label: Legal Title
+    type:  text
+
+  section5tmgTitle:
+    label: Section 5 TMG Title
+    type:  text
+    width: 1/2
+
+  section5tmgCopy:
+    label: Section 5 TMG copy
+    type:  textarea
+    width: 1/2
+
+  representedTitle:
+    label: Represented Title
+    type:  text
+    width: 1/2
+
+  representedCopy:
+    label: Represented Copy
+    type:  textarea
+    width: 1/2
+
+  contactTitle:
+    label: Contact Title
+    type:  text
+    width: 1/2
+
+  contactCopy:
+    label: Contact Copy
+    type:  textarea
+    width: 1/2
+
+  registerTitle:
+    label: Register Title
+    type:  text
+    width: 1/2
+
+  registerCopy:
+    label: Register Copy
+    type:  textarea
+    width: 1/2
+
+  vatTitle:
+    label: VAT Title
+    type:  text
+    width: 1/2
+
+  vatCopy:
+    label: VAT Copy
+    type:  textarea
+    width: 1/2
+
+  sourceOfIMGTitle:
+    label: Source of images Title
+    type:  text
+    width: 1/2
+
+  sourceOfIMGCopy:
+    label: Source of images Copy
+    type:  textarea
+    width: 1/2
+
+  disclaimerTitle:
+    label: Disclaimer Title
+    type:  text
+
+  accountabilityContentTitle:
+    label: Accountability Content Title
+    type:  text
+    width: 1/2
+
+  accountabilityContentCopy:
+    label: Accountability Content Copy
+    type:  textarea
+    width: 1/2
+
+  accountabilityLinksTitle:
+    label: Accountability Links Title
+    type:  text
+    width: 1/2
+
+  accountabilityLinksCopy:
+    label: Accountability Links Copy
+    type:  textarea
+    width: 1/2
+
+  copyrightTitle:
+    label: Copyright Title
+    type:  text
+    width: 1/2
+
+  copyrightCopy:
+    label: Copyright Copy
+    type:  textarea
+    width: 1/2

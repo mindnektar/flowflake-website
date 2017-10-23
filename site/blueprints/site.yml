@@ -1,0 +1,27 @@
+title: Site
+
+pages: true
+
+files: true
+
+fields:
+
+  favicon:
+    label: Favicon
+    type: image
+
+  title:
+    label: Title
+    type:  text
+
+  mail:
+    label: Kontakt Mail Adresse
+    type: text
+
+  description:
+    label: Description
+    type: textarea
+
+  keywords:
+    label: Keywords
+    type: textarea

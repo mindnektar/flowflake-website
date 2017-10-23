@@ -1,0 +1,25 @@
+Title: contact
+
+----
+
+Headline: Hast Du noch Fragen?<br>Lass uns gern einen Termin vereinbaren.
+
+----
+
+Contactname: Michael Lorenz
+
+----
+
+Contactposition: Dein Ansprechpartner
+
+----
+
+Contactquote: „Flowflake ermöglicht Dir Dialoge auf Augenhöhe zu führen. Dank einer einzigartigen Navigation kannst Du flexibel auf Nachfragen Deines Gesprächspartners reagieren. Das hebt Flowflake von den 'alten' Präsentationslösungen ab."
+
+----
+
+Cta: Kontakt
+
+----
+
+Ctalink: 

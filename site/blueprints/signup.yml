@@ -1,0 +1,35 @@
+title: Signup
+
+pages: false
+
+files: false
+
+fields:
+
+  title:
+    label: Title
+    type: text
+
+  headline:
+    label: Headline
+    type: text
+
+  company:
+    label: Company
+    type: text
+
+  email:
+    label: Email
+    type: text
+
+  phone:
+    label: Phone
+    type: text
+
+  message:
+    label: Message
+    type: text
+
+  submit:
+    label: Submit
+    type: text

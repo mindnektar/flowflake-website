@@ -1,0 +1,26 @@
+Title: section1
+
+----
+
+Intro: 
+
+----
+
+Introdetail: 
+
+----
+
+Cta: bald mehr erfahren
+
+----
+
+Headline: Eine neue Dimension für Deine Präsentation.<br>Optimiert für Verkaufsgespräche, Messen und Events.
+
+----
+
+Copy: 
+
++ Erstelle Präsentationen, die für moderne Tablets optimiert sind<br>
++ Verwalte Folien und Präsentationen im Browser und zentral an einem Ort<br>
++ Die richtigen Folien sofort griffbereit dank intelligenter - auch vertikaler - Navigation<br> 
++ Erreiche jede Folie in wenigen Augenblicken - ganz gleich wie umfangreich Deine Präsentationen ist<br>
