@@ -36,6 +36,12 @@
     });
 
     $('.signup__success button').click(function() {
-        $signup.removeClass('signup--visible signup--success');
+        $signup.removeClass('signup--visible');
+
+        window.setTimeout(function() {
+            $signup.removeClass('signup--success');
+
+            $('input, textarea', $form).val('');
+        }, 300);
     });
 })();
