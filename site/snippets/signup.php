@@ -15,10 +15,18 @@
 
             <input
                 class="signup__form-item"
-                name="name"
+                name="firstname"
                 required
                 type="text"
-                placeholder="<?php echo $data->name(); ?>"
+                placeholder="<?php echo $data->firstname(); ?>"
+            />
+
+            <input
+                class="signup__form-item"
+                name="lastname"
+                required
+                type="text"
+                placeholder="<?php echo $data->lastname(); ?>"
             />
 
             <input

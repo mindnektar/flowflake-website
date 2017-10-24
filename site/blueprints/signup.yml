@@ -18,8 +18,12 @@ fields:
     label: Company
     type: text
 
-  name:
-    label: Name
+  firstname:
+    label: First name
+    type: text
+
+  lastname:
+    label: Last name
     type: text
 
   email:
@@ -40,7 +44,7 @@ fields:
 
   success:
     label: Success
-    type: text
+    type: textarea
 
   close:
     label: Close

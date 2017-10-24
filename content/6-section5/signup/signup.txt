@@ -35,3 +35,11 @@ Close: Schließen
 ----
 
 Name: Vor- und Nachname
+
+----
+
+Firstname: Vorname
+
+----
+
+Lastname: Nachname
