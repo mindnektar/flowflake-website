@@ -9,4 +9,4 @@ password: >
 language: de
 role: admin
 history:
-  - section5/signup
+  - blog

@@ -1,0 +1,14 @@
+title: FAQ item
+
+pages: false
+
+files: false
+
+fields:
+  question:
+    label: Question
+    type: text
+
+  answer:
+    label: Answer
+    type: textarea

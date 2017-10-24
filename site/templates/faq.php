@@ -1,19 +1,18 @@
 <?php
 snippet('head');
-
-snippet('legal_header');
+snippet('header');
 ?>
 
-<main id="legal-content">
-    <body>
-        <div class="inside">
-            <h2><?php echo $page->faqTitle() ?></h2>
-
-            <h3><?php echo $page->faqTitle() ?></h3>
-
-            <h3><?php echo $page->faqAnswer() ?></h3>
-        <div>
-    </body>
+<main>
+    <section class="faq">
+        <?php foreach ($page->children()->visible() as $item) { ?>
+            <article>
+                <h3><?php echo $item->question()->html(); ?></h3>
+                <p><?php echo $item->answer()->html(); ?></p>
+            </article>
+        <?php } ?>
+    <section>
 </main>
 
-<?php snippet('footer'); ?>
+<?php
+snippet('footer');

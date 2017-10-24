@@ -38,6 +38,10 @@ main{
     width: 100%;
 }
 
+main section:first-child {
+    padding-top: 7rem;
+}
+
 body .container{
     max-width: none;
     padding: 0;
@@ -112,7 +116,9 @@ a:hover, a:focus {
 /* Header */
 
 header{
+    align-items: center;
     background: #1C212C;
+    display: flex;
     height: 6rem;
     line-height: 6rem;
     top: 0;
@@ -122,6 +128,28 @@ header{
     z-index: 1;
 }
 
+header nav {
+    flex-grow: 1;
+    padding-left: 72px;
+}
+
+header nav a {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-right: 48px;
+    transition: 300ms ease color;
+}
+
+header nav a.active,
+header nav a:hover {
+    color: #17e1be !important;
+    text-decoration: none;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
 #logo{
     height: 2rem;
     display: none;
@@ -129,10 +157,6 @@ header{
 
 #logo-f{
     height: 3rem;
-}
-
-.nav{
-    float: right;
 }
 
 .nav-link{
@@ -154,6 +178,7 @@ header{
     vertical-align: middle;
     text-decoration: none;
     color: #fff;
+    line-height: 1.2;
 
     background: rgba(0,222,182,0.1);
     border: 2px solid #00DEB6;
@@ -168,8 +193,6 @@ header{
 /* Stage */
 
 #stage{
-    padding: 0;
-    padding-top: 7rem;
     z-index: -1;
     overflow: hidden;
 }
@@ -947,6 +970,40 @@ textarea.signup__form-item {
 
 .signup__success button {
     margin-top: 24px;
+}
+
+/* Blog */
+
+article {
+    color: #000;
+    margin: 48px auto;
+    max-width: 1024px;
+    padding: 0 24px;
+}
+
+article > h2 {
+    color: #000;
+    margin-bottom: 24px;
+}
+
+article > h3 {
+    font-size: 1.6em;
+    margin-bottom: 6px;
+}
+
+article > p {
+    line-height: 2.5rem;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+article > a:hover {
+    color: #337ab7 !important;
+    text-decoration: underline;
+}
+
+.blog, .blogarticle {
+    margin-bottom: 20rem;
 }
 
 @media (min-width: 375px) {

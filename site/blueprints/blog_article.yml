@@ -1,0 +1,18 @@
+title: Blog article
+
+pages: false
+
+files: false
+
+fields:
+  title:
+    label: Title
+    type: text
+
+  intro:
+    label: Intro
+    type: textarea
+
+  text:
+    label: Text
+    type: textarea

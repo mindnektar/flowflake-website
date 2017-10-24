@@ -32,8 +32,8 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Open+Sans:300,400" rel="stylesheet">
 
-  <?php echo css('assets/css/style.css') ?>
   <?php echo css('assets/css/imports/bootstrap_grid.css') ?>
+  <?php echo css('assets/css/style.css?1') ?>
 
   <!-- Facebook Pixel Code -->
   <script>

@@ -1,0 +1,10 @@
+title: Blog
+
+pages: true
+
+files: false
+
+fields:
+  readmore:
+    label: Read more
+    type: text

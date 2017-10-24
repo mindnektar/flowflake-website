@@ -1,11 +1,25 @@
 <header>
     <a href="<?php echo $site->url() ?>"><img src="<?php echo kirby()->urls()->assets() . '/images/flowflake_logo_f.svg'?>" id="logo-f"></a>
     <a href="<?php echo $site->url() ?>"><img src="<?php echo kirby()->urls()->assets() . '/images/flowflake_logo.svg'?>" id="logo"></a>
-    <div class="nav">
-        <!--<a href="<?php echo $site->url() ?>" class="nav-link">Startseite</a>
-        <a href="#section2" class="nav-link">Features</a>-->
+
+    <nav>
+        <a
+            class="<?php echo $pages->find('blog')->isOpen() ? 'active' : '' ?>"
+            href="<?php echo $pages->find('blog')->url() ?>"
+        >
+            Blog
+        </a>
+        <a
+            class="<?php echo $pages->find('faq')->isOpen() ? 'active' : '' ?>"
+            href="<?php echo $pages->find('faq')->url() ?>"
+        >
+            FAQ
+        </a>
+    </nav>
+
+    <?php if ($pages->find('home')->isOpen()) { ?>
         <a href="#section5" class="nav-btn">Jetzt Testen</a>
-    </div>
+    <?php } ?>
 
     <script>
         // Select all links with hashes
@@ -16,8 +30,8 @@
         .click(function(event) {
         // On-page links
         if (
-            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-            && 
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+            &&
             location.hostname == this.hostname
         ) {
             // Figure out element to scroll to
